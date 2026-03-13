@@ -1,0 +1,84 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg,#4facfe,#ff7eb3);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  background:white;
+  width:600px;
+  padding:50px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 12px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+  font-size:38px;
+  color:#ff4da6;
+  margin-bottom:25px;
+}
+
+.quoteBox{
+  font-size:24px;
+  color:#333;
+  line-height:1.6;
+  margin:25px 0;
+}
+
+.quoteBox p:first-child{
+  font-style:italic;
+}
+
+button{
+  padding:14px 26px;
+  margin:12px;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:first-of-type{
+  background:#2196f3;
+  color:white;
+}
+
+button:first-of-type:hover{
+  background:#1976d2;
+}
+
+button:last-of-type{
+  background:#ff4da6;
+  color:white;
+}
+
+button:last-of-type:hover{
+  background:#e91e63;
+}
+
+button:disabled{
+  background:#ccc;
+}
+
+.liked{
+  margin-top:30px;
+  text-align:left;
+}
+
+.liked h3{
+  font-size:22px;
+}
+
+.liked div{
+  background:#fce4ec;
+  padding:12px;
+  border-radius:8px;
+  margin-bottom:10px;
+}
