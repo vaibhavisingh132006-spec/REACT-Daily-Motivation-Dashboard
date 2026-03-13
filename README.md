@@ -9,9 +9,9 @@ This project is a React + Vite app that displays daily motivation quotes.
 - CSS
 
 ## Features
-• Displays daily motivational quotes
-• Built using React components
-• Responsive UI
+- Displays daily motivational quotes
+- Built using React components
+- Responsive UI
 
 ## Live Demo
 https://react-daily-motivation-dashboard.vercel.app
